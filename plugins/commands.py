@@ -11,10 +11,10 @@ async def start_handler(c, m):
         await db.add_user(m.from_user.id)
         keyboard = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
-                 InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ", callback_data="earn_money")],
-                [InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                 InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}")],
+                [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ 🔱", callback_data="help"),
+                 InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ ❣️", callback_data="earn_money")],
+                [InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🍩", url="https://t.me/tamilan_botsz"),
+                 InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor")],
                 [InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="delete")]
             ]
         )
@@ -30,15 +30,15 @@ async def start_handler(c, m):
 async def save_shortlink(c, m):
     if len(m.command) < 3:
         await m.reply_text(
-            "<b>Command Incomplete:\n\nPut shortner URL & API along with the command.\n\nEx: <code>/set_shortner example.com api</code></b>"
+            "<b>🕊️ Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :\n\nPᴜᴛ Sʜᴏʀᴛɴᴇʀ URL & API Aʟᴏɴɢ Wɪᴛʜ Tʜᴇ Cᴏᴍᴍᴀɴᴅ .\n\nEx: <code>/set_shortner example.com api</code> \n ⚡ Uᴘᴅᴀᴛᴇs - @Tamilan_Botsz</b>"
         )
         return    
     usr = m.from_user
     elg = await save_data((m.command[1].replace("/", "").replace("https:", "").replace("http:", "")), m.command[2], uid=usr.id)
     if elg:
-        await m.reply_text(f"Shortner has been set successfully!\n\nShortner URL - `{await db.get_value("shortner", uid=usr.id)}`\nShortner API - `{await db.get_value("api", uid=usr.id)}`")
+        await m.reply_text(f"📍 Sʜᴏʀᴛɴᴇʀ Hᴀs Bᴇᴇɴ Sᴇᴛ Sᴜᴄᴄᴇssғᴜʟʟʏ !\n\nSʜᴏʀᴛɴᴇʀ URL - `{await db.get_value("shortner", uid=usr.id)}`\nShortner API - `{await db.get_value("api", uid=usr.id)}`\n ⚡ Uᴘᴅᴀᴛᴇs - @Tamilan_Botsz")
     else:       
-        await m.reply_text(f"Error:\n\nYour shortlink API or URL is invalid. Please check again!")    
+        await m.reply_text(f"🌶️ Eʀʀᴏʀ:\n\nYᴏᴜʀ Sʜᴏʀᴛʟɪɴᴋ API or URL Is Iɴᴠᴀʟɪᴅ. Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Aɢᴀɪɴ !")    
     
 @Client.on_message(filters.text & filters.private)
 async def shorten_link(_, m):

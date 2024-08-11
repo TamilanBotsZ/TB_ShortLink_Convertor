@@ -23,12 +23,12 @@ class ShortnerBot(Client):
         port = int(os.getenv("PORT", 8080))
         await web.TCPSite(app, ba, port).start()
         await super().start()
-        logger.info("Bot started successfully..")
+        logger.info("Bot started successfully - @Tamilan_botsz & @Sharathitsisme..")
         asyncio.create_task(ping_server())
 
     async def stop(self, *args):
         await super().stop()
-        logger.info("Bot stepped!")
+        logger.info("Bot stopped - @Tamilan_botsz & @sharathitsisme!")
 
 
 if __name__ == '__main__':

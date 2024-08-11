@@ -21,11 +21,11 @@ async def callback(bot, query):
             HELP_TXT.format(me.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Sᴇᴛ Sʜᴏʀᴛɴᴇʀ", callback_data="set_shortner"),
-                     InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")],     
-                    [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/tamilanbotsz_support"),
+                    [InlineKeyboardButton("Sᴇᴛ Sʜᴏʀᴛɴᴇʀ ༆", callback_data="set_shortner"),
+                     InlineKeyboardButton("Aʙᴏᴜᴛ ★", callback_data="about")],     
+                    [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⌘", url="https://t.me/tamilanbotsz_support"),
                     [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor"),
-                     InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start")]
+                     InlineKeyboardButton("Bᴀᴄᴋ ✰", callback_data="start")]
                 ]
             )
         )
@@ -37,10 +37,10 @@ async def callback(bot, query):
                 [
                     [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs 🙌", url="https://t.me/tamilan_botsz"),
                      InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ ⚡", url="https://t.me/sharathitsisme")],
-                    [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
-                     InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ", callback_data="earn_money")],
+                    [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ ⁂", callback_data="help"),
+                     InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ ♕", callback_data="earn_money")],
                     [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor")],
-                    [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start")]
+                    [InlineKeyboardButton("Bᴀᴄᴋ 𖦹", callback_data="start")]
                 ]
             )
         )
@@ -49,9 +49,9 @@ async def callback(bot, query):
         await msg.edit("Send shortner URL & API along with the command.\n\nEx: <code>/set_shortner example.com api</code></b>",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
-                     InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ", callback_data="earn_money")],
-                    [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"),                     
+                    [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ 🙌", callback_data="help"),
+                     InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ 🕊️", callback_data="earn_money")],
+                    [InlineKeyboardButton("Bᴀᴄᴋ ✌", callback_data="help"),                     
                      InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor")]
                 ]
             )
@@ -64,12 +64,12 @@ async def callback(bot, query):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
-                        InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
+                        InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ 🍩", callback_data="help"),
+                        InlineKeyboardButton("Aʙᴏᴜᴛ 📍", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/tamilanbotsz_support"),
-                        InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start")
+                        InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ 🌛", url=f"https://t.me/tamilanbotsz_support"),
+                        InlineKeyboardButton("Bᴀᴄᴋ 💤", callback_data="start")
                     ]
                 ]
             )

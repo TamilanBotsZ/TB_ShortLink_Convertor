@@ -13,12 +13,12 @@ START_TXT = '''<b>Hᴇʟʟᴏ {}, I Aᴍ Sʜᴏʀᴛɴᴇʀ Bᴏᴛ!.
 HELP_TXT = '''Sᴇɴᴅ ᴍᴇ ᴀɴʏ ʟɪɴᴋ ɪ ᴡɪʟʟ ᴄᴏɴᴠᴇʀᴛ ɪᴛ ᴛᴏ sʜᴏʀᴛ ʟɪɴᴋ ᴜsɪɴɢ ʏᴏᴜʀ ᴀᴘɪ
 ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ᴛʜᴀᴛ ʟɪɴᴋ ᴀɴᴅ ᴇᴀʀɴ ᴍᴏɴᴇʏ.
 sᴇɴᴅ /set_shortner ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ'''
-ABOUT_TXT = '''<b>╔════❰ Sʜᴏʀᴛɴᴇʀ Bᴏᴛ ❱═══❍
+ABOUT_TXT = '''<b>╔════❰ Tʙ Sʜᴏʀᴛɴᴇʀ Bᴏᴛ ❱═══❍
 ║ ┏━━━━━━━━━❥
 ║ ┣ Mʏ ɴᴀᴍᴇ -> {}
-║ ┣ Mʏ Oᴡɴᴇʀ -> @iSmartBoii_Ujjwal
-║ ┣ Uᴘᴅᴀᴛᴇꜱ -> <a href="tg://resolve?domain=">••Bᴏᴛs••</a>
-║ ┣ 𝖲ᴜᴘᴘᴏʀᴛ -> <a href="tg://resolve?domain="> Bᴏᴛs Sᴜᴩᴩᴏʀᴛ</a>
+║ ┣ Mʏ Oᴡɴᴇʀ -> @Sharathitsisme & @iSmartBoii_Ujjwal
+║ ┣ Uᴘᴅᴀᴛᴇꜱ -> <a href="tg://tamilan_botsz">••Bᴏᴛs••</a>
+║ ┣ 𝖲ᴜᴘᴘᴏʀᴛ -> <a href="tg://tamilanbotsz_support"> Bᴏᴛs Sᴜᴩᴩᴏʀᴛ</a>
 ║ ┣ ๏ Cʜᴇᴄᴋ ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ.
 ║ ┗━━━━━━━━━❥
 ╚═════❰ @ ❱═════❍</b>'''

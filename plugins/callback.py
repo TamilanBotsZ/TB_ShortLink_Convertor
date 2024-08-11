@@ -23,7 +23,8 @@ async def callback(bot, query):
                 [
                     [InlineKeyboardButton("Sᴇᴛ Sʜᴏʀᴛɴᴇʀ", callback_data="set_shortner"),
                      InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")],     
-                    [InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/tamilanbotsz_support"),
+                    [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor"),
                      InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start")]
                 ]
             )
@@ -34,9 +35,11 @@ async def callback(bot, query):
             ABOUT_TXT.format(me.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
+                    [InlineKeyboardButton("Uᴘᴅᴀᴛᴇs 🙌", url="https://t.me/tamilan_botsz"),
+                     InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ ⚡", url="https://t.me/sharathitsisme")],
                     [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
                      InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ", callback_data="earn_money")],
-                    [InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/{SUPPORT_GROUP}")],
+                    [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor")],
                     [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start")]
                 ]
             )
@@ -49,7 +52,7 @@ async def callback(bot, query):
                     [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
                      InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ", callback_data="earn_money")],
                     [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="help"),                     
-                     InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="delete")]
+                     InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor")]
                 ]
             )
         )
@@ -65,7 +68,7 @@ async def callback(bot, query):
                         InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                        InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ Gʀᴏᴜᴩ", url=f"https://t.me/tamilanbotsz_support"),
                         InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start")
                     ]
                 ]
@@ -79,8 +82,8 @@ async def callback(bot, query):
                 [
                     [InlineKeyboardButton("Hᴇʟᴩ Mᴇɴᴜ", callback_data="help"),
                      InlineKeyboardButton("Eᴀʀɴ Mᴏɴᴇʏ", callback_data="earn_money")],
-                    [InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                     InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_GROUP}")],
+                    [InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url=f"https://t.me/tamilan_botsz"),
+                     InlineKeyboardButton("Sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/tamilanbotsz_support")],
                     [InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="delete")]
                 ]
             )

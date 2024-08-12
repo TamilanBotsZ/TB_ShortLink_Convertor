@@ -14,7 +14,7 @@
 
 # ✈️ Depoly 
 
-<details><summary>Deploy To Heroku</summary>
+<details><summary>Deploy To Heroku ✨</summary>
 <p>
 <br>
 <a href="https://heroku.com/deploy?template=https://github.com/TamilanBotsZ/TB_ShortLink_Convertor">
@@ -23,7 +23,7 @@
 </p>
 </details>
 
-<details><summary>Deploy To Koyeb</summary>
+<details><summary>Deploy To Koyeb ⚔️</summary>
 <br>
 <b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
 <br>
@@ -34,7 +34,9 @@
 
 
 
-<b>deploy to render 💥 ↓</b>
+<details><summary>Deploy To Render ✈️</summary>
+<p>
+<br>
 <br>
 <br>
 <a href="https://render.com/deploy?repo=https://github.com/TamilanBotsZ/TB_ShortLink_Convertor">

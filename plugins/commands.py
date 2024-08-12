@@ -36,7 +36,7 @@ async def save_shortlink(c, m):
     usr = m.from_user
     elg = await save_data((m.command[1].replace("/", "").replace("https:", "").replace("http:", "")), m.command[2], uid=usr.id)
     if elg:
-        await m.reply_text(f"📍 Sʜᴏʀᴛɴᴇʀ Hᴀs Bᴇᴇɴ Sᴇᴛ Sᴜᴄᴄᴇssғᴜʟʟʏ !\n\nSʜᴏʀᴛɴᴇʀ URL - `{await db.get_value("shortner", uid=usr.id)}`\nShortner API - `{await db.get_value("api", uid=usr.id)}`\n ⚡ Uᴘᴅᴀᴛᴇs - @Tamilan_Botsz")
+        await m.reply_text(f"📍 Sʜᴏʀᴛɴᴇʀ Hᴀs Bᴇᴇɴ Sᴇᴛ Sᴜᴄᴄᴇssғᴜʟʟʏ !\n\nSʜᴏʀᴛɴᴇʀ URL - `{await db.get_value('shortner', uid=usr.id)}`\nShortner API - `{await db.get_value('api', uid=usr.id)}`\n ⚡ Uᴘᴅᴀᴛᴇs - @Tamilan_Botsz")
     else:       
         await m.reply_text(f"🌶️ Eʀʀᴏʀ:\n\nYᴏᴜʀ Sʜᴏʀᴛʟɪɴᴋ API or URL Is Iɴᴠᴀʟɪᴅ. Pʟᴇᴀsᴇ Cʜᴇᴄᴋ Aɢᴀɪɴ !")    
     

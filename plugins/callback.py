@@ -23,7 +23,7 @@ async def callback(bot, query):
                 [
                     [InlineKeyboardButton("Sᴇᴛ Sʜᴏʀᴛɴᴇʀ ༆", callback_data="set_shortner"),
                      InlineKeyboardButton("Aʙᴏᴜᴛ ★", callback_data="about")],     
-                    [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⌘", url="https://t.me/tamilanbotsz_support"),
+                    [InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⌘", url="https://t.me/tamilanbotsz_support")],
                     [InlineKeyboardButton("Rᴇᴘᴏ 🛠", url="https://github.com/TamilanBotsZ/TB_ShortLink_Convertor"),
                      InlineKeyboardButton("Bᴀᴄᴋ ✰", callback_data="start")]
                 ]

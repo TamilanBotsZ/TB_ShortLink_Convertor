@@ -47,17 +47,17 @@
 <details><summary>Deploy To VPS 🪐</summary>
 <p>
 <pre>
-git clone https://github.com/TamilanBotsZ/TB_ShortLink_Convertor
-# Install Packages
+<code>git clone https://github.com/TamilanBotsZ/TB_ShortLink_Convertor
+cd TB_ShortLink_Convertor
 pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
+python3 bot.py</code>
 </pre>
+Don't forget to edit configs.py with variables as given below then run bot
 </p>
 </details>
 
 ## 🪐 Contact Devs 
 
-Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ *[![Sʜᴀʀᴀᴛʜ ⚡](https://img.shields.io/static/v1?label=sharath&message=devs&color=critical)](https://telegram.dog/Sharathitsisme)
+Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ * [![Sʜᴀʀᴀᴛʜ ⚡](https://img.shields.io/static/v1?label=Sʜᴀʀᴀᴛʜ⚡&message=devs&color=critical)](https://telegram.dog/Sharathitsisme)
 
-Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ *[![Uᴊᴊᴡᴀʟ⚡](https://img.shields.io/static/v1?label=ujjwal&message=devs&color=critical)](https://telegram.dog/ismartboii_ujjwal)
+Rᴇᴘᴏ Oᴡɴᴇʀ/Cʀᴇᴀᴛᴏʀ * [![Uᴊᴊᴡᴀʟ⚡](https://img.shields.io/static/v1?label=Uᴊᴊᴡᴀʟ⚡&message=devs&color=critical)](https://telegram.dog/iSmartBoii_Ujjwal)
